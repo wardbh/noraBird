@@ -30,13 +30,19 @@
 }
 
 .blue-turaco__habitat {
+    z-index: 9;
     position: fixed;
     width: 30%;
     left: 20px;
-    background: rgba(256,256,256, .75);
+    background: rgba(256,256,256, 1);
     color: black;
     padding: 0 10px 10px;
-    box-shadow: 10px 10px 5px blue;
+    box-shadow: 2px 2px 3px blue;
+}
+
+.blue-turaco__habitat:hover {
+    z-index: 10;
+    box-shadow: 2px 2px 3px blue;
 }
 
 .blue-turaco__habitat-image {
@@ -47,13 +53,21 @@
 
 .blue-turaco__traits {
     position: fixed;
+    z-index: 1;
     width: 30%;
-    right: 20px;
+    left: 50px;
     background: rgba(256,256,256, .75);
     color: black;
     padding: 0 10px 10px;
-    box-shadow: 10px 10px 5px blue;
+    box-shadow: 2px 2px 3px black;
 }
+
+.blue-turaco__traits:hover {
+    z-index: 10;
+    background: rgba(256,256,256, 1);
+    box-shadow: 2px 2px 3px blue;
+}
+
 
 .blue-turaco__traits-image {
     display: block;
