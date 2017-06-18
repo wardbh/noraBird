@@ -1,7 +1,6 @@
 .blue-turaco {
-    background-color: blue;
     color: white;
-    font-family: helvetica,serif;
+    font-family: Allerta;
     position: relative;
     background-size: cover;
     background-position:top,left;
@@ -13,4 +12,18 @@
     position: aboslute;
     top: 0;
     left: 0;
+}
+
+.blue-turaco__credit {
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+    font-size: 12px;
+}
+
+.blue-turaco__info {
+    position: fixed;
+    left: 20px;
+    background: rgba(white, .75);
+    color: black;
 }
