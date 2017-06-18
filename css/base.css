@@ -3,6 +3,8 @@
     color: white;
     font-family: helvetica,serif;
     position: relative;
+    background-size: cover;
+    background-position:top,left;
 }
 
 .blue-turaco__image {
