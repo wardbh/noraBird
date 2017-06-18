@@ -55,7 +55,8 @@
     position: fixed;
     z-index: 1;
     width: 30%;
-    left: 50px;
+    left: 110px;
+    top: 110px;
     background: rgba(256,256,256, .75);
     color: black;
     padding: 0 10px 10px;
@@ -66,6 +67,7 @@
     z-index: 10;
     background: rgba(256,256,256, 1);
     box-shadow: 2px 2px 3px blue;
+    border: 1px solid black;
 }
 
 
@@ -74,3 +76,30 @@
     width: 100%;
     margin-top: 10px;
 }
+
+.blue-turaco__nests {
+    position: fixed;
+    z-index: 2;
+    width: 30%;
+    left: 160px;
+    top: 160px;
+    background: rgba(256,256,256, .75);
+    color: black;
+    padding: 0 10px 10px;
+    box-shadow: 2px 2px 3px black;
+}
+
+.blue-turaco__nests:hover {
+    z-index: 10;
+    background: rgba(256,256,256, 1);
+    box-shadow: 2px 2px 3px blue;
+    border: 1px solid black;
+}
+
+
+.blue-turaco__nests-image {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+}
+
