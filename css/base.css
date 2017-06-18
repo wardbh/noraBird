@@ -7,7 +7,7 @@
 }
 
 .blue-turaco__title {
-    text-shadow: 1px 1px 1px #fff,
+    text-shadow: 1px 1px 1px #000,
         3px 3px 5px blue;
     font-size: 40px;
 }
@@ -25,13 +25,38 @@
     bottom: 0;
     right: 20px;
     font-size: 12px;
+    background: rgba(0,0,0,.75);
+    padding: 5px;
 }
 
-.blue-turaco__info {
+.blue-turaco__habitat {
     position: fixed;
     width: 30%;
     left: 20px;
     background: rgba(256,256,256, .75);
     color: black;
     padding: 0 10px 10px;
+    box-shadow: 10px 10px 5px blue;
+}
+
+.blue-turaco__habitat-image {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.blue-turaco__traits {
+    position: fixed;
+    width: 30%;
+    right: 20px;
+    background: rgba(256,256,256, .75);
+    color: black;
+    padding: 0 10px 10px;
+    box-shadow: 10px 10px 5px blue;
+}
+
+.blue-turaco__traits-image {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
 }
