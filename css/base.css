@@ -104,7 +104,7 @@
 
 .blue-turaco__status {
     position: fixed;
-    z-index: 4;
+    z-index: 3;
     width: 30%;
     left: 170px;
     top: 160px;
@@ -127,3 +127,56 @@
     width: 100%;
     margin-top: 10px;
 }
+
+.blue-turaco__diet {
+    position: fixed;
+    z-index: 2;
+    width: 30%;
+    left: 220px;
+    top: 180px;
+    background: rgba(256,256,256, .75);
+    color: black;
+    padding: 0 10px 10px;
+    box-shadow: 2px 2px 3px black;
+}
+
+.blue-turaco__diet:hover {
+    z-index: 10;
+    background: rgba(256,256,256, 1);
+    box-shadow: 2px 2px 3px blue;
+    border: 1px solid black;
+}
+
+
+.blue-turaco__diet-image {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.blue-turaco__fun-facts {
+    position: fixed;
+    z-index: 2;
+    width: 30%;
+    left: 270px;
+    top: 200px;
+    background: rgba(256,256,256, .75);
+    color: black;
+    padding: 0 10px 10px;
+    box-shadow: 2px 2px 3px black;
+}
+
+.blue-turaco__fun-facts:hover {
+    z-index: 10;
+    background: rgba(256,256,256, 1);
+    box-shadow: 2px 2px 3px blue;
+    border: 1px solid black;
+}
+
+
+.blue-turaco__fun-facts-image {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+}
+
