@@ -6,6 +6,14 @@
     background-position:top,left;
 }
 
+.blue-turaco:after {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    background: rgba(0,0,0,.7);
+}
+
 .blue-turaco__title {
     font-family: "Bowlby One SC";
     text-shadow: 1px 1px 1px #000,
