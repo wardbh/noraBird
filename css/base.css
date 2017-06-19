@@ -165,8 +165,8 @@
 
 
 .blue-turaco__fun-facts-image {
-    display: block;
-    width: 100%;
+    display: inline-block;
+    width: 45%;
     margin-top: 10px;
 }
 
