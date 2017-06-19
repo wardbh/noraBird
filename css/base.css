@@ -30,7 +30,7 @@
 }
 
 .blue-turaco__tiles {
-    height: 522px;
+    /*height: 522px;*/
     width: 30%;
     padding: 0 10px 10px;
     color: black;
@@ -47,6 +47,7 @@
 
 .blue-turaco__habitat-content {
     height: 0;
+    display: none;
 }
 
 .blue-turaco__habitat:hover {
@@ -54,8 +55,9 @@
     box-shadow: 2px 2px 3px blue;
 }
 
-.blue-turaco__habitat:hover.blue-turaco__habitat-content {
+.blue-turaco__habitat:hover .blue-turaco__habitat-content {
     height: auto;
+    display: block;
 }
 
 .blue-turaco__habitat-image {
