@@ -9,6 +9,7 @@
 .blue-turaco__title {
     font-family: "Bowlby One SC";
     text-shadow: 1px 1px 1px #000,
+        -3px -3px 5px blue,
         3px 3px 5px blue;
     font-size: 55px;
 }
