@@ -15,6 +15,7 @@
     width: 100%;
     height: 73px;
     background: rgba(0,0,0,.2);
+    z-index: -1;
 }
 
 .blue-turaco__title {
@@ -24,6 +25,7 @@
         3px 3px 5px blue;
     font-size: 55px;
     font-weight: normal;
+    text-align: center;
 }
 
 .blue-turaco__image {
@@ -36,9 +38,9 @@
 
 .blue-turaco__credit {
     position: absolute;
-    top: 51px;
-    right: 20px;
-    font-size: 12px;
+    top: 54px;
+    right: 0;
+    font-size: 10px;
     padding: 5px;
 }
 
