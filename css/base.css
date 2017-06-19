@@ -35,7 +35,6 @@
     padding: 0 10px 10px;
     color: black;
     padding: 0 10px 10px;
-    opacity: .25;
 }
 
 .blue-turaco__habitat {
@@ -44,13 +43,19 @@
     left: 20px;
     background: rgba(256,256,256, 1);
     box-shadow: 2px 2px 3px blue;
-    opacity: 1;
+}
+
+.blue-turaco__habitat-content {
+    height: 0;
 }
 
 .blue-turaco__habitat:hover {
-    opacity: 1;
     z-index: 10;
     box-shadow: 2px 2px 3px blue;
+}
+
+.blue-turaco__habitat:hover.blue-turaco__habitat-content {
+    height: auto;
 }
 
 .blue-turaco__habitat-image {
@@ -69,7 +74,6 @@
 }
 
 .blue-turaco__traits:hover {
-    opacity: 1;
     z-index: 10;
     background: rgba(256,256,256, 1);
     box-shadow: 2px 2px 3px blue;
@@ -93,7 +97,6 @@
 }
 
 .blue-turaco__nests:hover {
-    opacity: 1;
     z-index: 10;
     background: rgba(256,256,256, 1);
     box-shadow: 2px 2px 3px blue;
@@ -116,7 +119,6 @@
 }
 
 .blue-turaco__status:hover {
-    opacity: 1;
     z-index: 10;
     background: rgba(256,256,256, 1);
     box-shadow: 2px 2px 3px blue;
@@ -140,7 +142,6 @@
 }
 
 .blue-turaco__diet:hover {
-    opacity: 1;
     z-index: 10;
     background: rgba(256,256,256, 1);
     box-shadow: 2px 2px 3px blue;
@@ -164,7 +165,6 @@
 }
 
 .blue-turaco__fun-facts:hover {
-    opacity: 1;
     z-index: 10;
     background: rgba(256,256,256, 1);
     box-shadow: 2px 2px 3px blue;
