@@ -30,7 +30,7 @@
 }
 
 .blue-turaco__tiles {
-    width: 17%;
+    width: 15%;
     padding: 0 10px 10px;
     color: black;
     padding: 0 10px 10px;
@@ -50,10 +50,17 @@
     background: rgba(256,256,256, 1);
 }
 
+.blue-turaco__tile-content p,
+.blue-turaco__tile-content img {
+    width: 90%;
+    padding: 5%;
+    display: block;
+}
+
 .blue-turaco__habitat {
     z-index: 9;
     position: fixed;
-    left: 10px;
+    left: 0;
     bottom: 0;
 }
 
@@ -68,16 +75,10 @@
     transition: max-height .5s ease;
 }
 
-.blue-turaco__habitat-image {
-    display: block;
-    width: 100%;
-    margin-top: 10px;
-}
-
 .blue-turaco__traits {
     position: fixed;
     z-index: 5;
-    left: 18%;
+    left: 16%;
     bottom: 0;
 }
 
@@ -93,16 +94,10 @@
     transition: max-height .5s ease;
 }
 
-.blue-turaco__traits-image {
-    display: block;
-    width: 100%;
-    margin-top: 10px;
-}
-
 .blue-turaco__nests {
     position: fixed;
     z-index: 4;
-    left: 36%;
+    left: 32%;
     bottom: 0;
 }
 
@@ -117,16 +112,10 @@
     transition: max-height .5s ease;
 }
 
-.blue-turaco__nests-image {
-    display: block;
-    width: 100%;
-    margin-top: 10px;
-}
-
 .blue-turaco__status {
     position: fixed;
     z-index: 3;
-    left: 54%;
+    left: 48%;
     bottom: 0;
 }
 
@@ -141,16 +130,10 @@
     transition: max-height .5s ease;
 }
 
-.blue-turaco__status-image {
-    display: block;
-    width: 100%;
-    margin-top: 10px;
-}
-
 .blue-turaco__diet {
     position: fixed;
     z-index: 2;
-    left: 72%;
+    left: 64%;
     bottom: 0;
 }
 
@@ -165,16 +148,10 @@
     transition: max-height .5s ease;
 }
 
-.blue-turaco__diet-image {
-    display: block;
-    width: 100%;
-    margin-top: 10px;
-}
-
 .blue-turaco__fun-facts {
     position: fixed;
     z-index: 1;
-    right: 18%;
+    left: 80%;
     bottom: 0;
 }
 
@@ -188,11 +165,3 @@
     -webkit-transition: max-height .5s ease;
     transition: max-height .5s ease;
 }
-
-.blue-turaco__fun-facts-image {
-    display: inline-block;
-    vertical-align: top;
-    width: 45%;
-    margin-top: 10px;
-}
-
