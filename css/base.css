@@ -4,6 +4,8 @@
     position: relative;
     background-size: cover;
     background-position:top,left;
+    margin: 0;
+    padding: 10px;
 }
 
 .blue-turaco:after {
@@ -11,8 +13,8 @@
     position: absolute;
     top: 0;
     width: 100%;
-    height: 80px;
-    background: rgba(0,0,0,.7);
+    height: 73px;
+    background: rgba(0,0,0,.2);
 }
 
 .blue-turaco__title {
@@ -34,7 +36,7 @@
 
 .blue-turaco__credit {
     position: absolute;
-    top: 0;
+    top: 51px;
     right: 20px;
     font-size: 12px;
     background: rgba(0,0,0,.75);
