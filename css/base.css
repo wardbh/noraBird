@@ -6,7 +6,7 @@
     background-position:top,left;
 }
 
-.blue-turaco:after {
+.blue-turaco__title:after {
     position: absolute;
     top: 0;
     width: 100%;
