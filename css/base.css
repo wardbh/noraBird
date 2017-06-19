@@ -34,33 +34,38 @@
     padding: 0 10px 10px;
     color: black;
     padding: 0 10px 10px;
+    background-color: transparent;
+}
+
+.blue-turaco__tiles h2 {
+    color: white;
+    font-size: 25px;
 }
 
 .blue-turaco__tile-content {
     max-height: 0;
     overflow: hidden;
-    -webkit-transition: max-height 2s ease;
-    transition: max-height 2s ease;
+    -webkit-transition: max-height .5s ease;
+    transition: max-height .5s ease;
+    background: rgba(256,256,256, 1);
 }
 
 .blue-turaco__habitat {
     z-index: 9;
     position: fixed;
-    left: 20px;
-    background: rgba(256,256,256, 1);
-    box-shadow: 2px 2px 3px blue;
+    left: 10px;
+    bottom: 0;
 }
 
 .blue-turaco__habitat:hover {
     z-index: 10;
-    box-shadow: 2px 2px 3px blue;
 }
 
 .blue-turaco__habitat:hover .blue-turaco__habitat-content {
     max-height: 600px;
     display: block;
-    -webkit-transition: max-height 2s ease;
-    transition: max-height 2s ease;
+    -webkit-transition: max-height .5s ease;
+    transition: max-height .5s ease;
 }
 
 .blue-turaco__habitat-image {
@@ -73,24 +78,19 @@
     position: fixed;
     z-index: 5;
     left: 70px;
-    top: 110px;
-    background: rgba(256,256,256, .75);
-    box-shadow: 2px 2px 3px black;
+    bottom: 0;
 }
 
 .blue-turaco__traits:hover {
     z-index: 10;
-    background: rgba(256,256,256, 1);
-    box-shadow: 2px 2px 3px blue;
-    border: 1px solid black;
 }
 
 
 .blue-turaco__traits:hover .blue-turaco__traits-content {
     max-height: 600px;
     display: block;
-    -webkit-transition: max-height 2s ease;
-    transition: max-height 2s ease;
+    -webkit-transition: max-height .5s ease;
+    transition: max-height .5s ease;
 }
 
 .blue-turaco__traits-image {
@@ -103,23 +103,18 @@
     position: fixed;
     z-index: 4;
     left: 120px;
-    top: 140px;
-    background: rgba(256,256,256, .75);
-    box-shadow: 2px 2px 3px black;
+    bottom: 0;
 }
 
 .blue-turaco__nests:hover {
     z-index: 10;
-    background: rgba(256,256,256, 1);
-    box-shadow: 2px 2px 3px blue;
-    border: 1px solid black;
 }
 
 .blue-turaco__nests:hover .blue-turaco__nests-content {
     max-height: 600px;
     display: block;
-    -webkit-transition: max-height 2s ease;
-    transition: max-height 2s ease;
+    -webkit-transition: max-height .5s ease;
+    transition: max-height .5s ease;
 }
 
 .blue-turaco__nests-image {
@@ -132,23 +127,18 @@
     position: fixed;
     z-index: 3;
     left: 170px;
-    top: 160px;
-    background: rgba(256,256,256, .75);
-    box-shadow: 2px 2px 3px black;
+    bottom: 0;
 }
 
 .blue-turaco__status:hover {
     z-index: 10;
-    background: rgba(256,256,256, 1);
-    box-shadow: 2px 2px 3px blue;
-    border: 1px solid black;
 }
 
 .blue-turaco__status:hover .blue-turaco__status-content {
     max-height: 600px;
     display: block;
-    -webkit-transition: max-height 2s ease;
-    transition: max-height 2s ease;
+    -webkit-transition: max-height .5s ease;
+    transition: max-height .5s ease;
 }
 
 .blue-turaco__status-image {
@@ -161,23 +151,18 @@
     position: fixed;
     z-index: 2;
     left: 220px;
-    top: 180px;
-    background: rgba(256,256,256, .75);
-    box-shadow: 2px 2px 3px black;
+    bottom: 0;
 }
 
 .blue-turaco__diet:hover {
     z-index: 10;
-    background: rgba(256,256,256, 1);
-    box-shadow: 2px 2px 3px blue;
-    border: 1px solid black;
 }
 
 .blue-turaco__diet:hover .blue-turaco__diet-content {
     max-height: 600px;
     display: block;
-    -webkit-transition: max-height 2s ease;
-    transition: max-height 2s ease;
+    -webkit-transition: max-height .5s ease;
+    transition: max-height .5s ease;
 }
 
 .blue-turaco__diet-image {
@@ -190,23 +175,18 @@
     position: fixed;
     z-index: 1;
     left: 270px;
-    top: 200px;
-    background: rgba(256,256,256, .75);
-    box-shadow: 2px 2px 3px black;
+    bottom: 0;
 }
 
 .blue-turaco__fun-facts:hover {
     z-index: 10;
-    background: rgba(256,256,256, 1);
-    box-shadow: 2px 2px 3px blue;
-    border: 1px solid black;
 }
 
 .blue-turaco__fun-facts:hover .blue-turaco__fun-facts-content {
     max-height: 600px;
     display: block;
-    -webkit-transition: max-height 2s ease;
-    transition: max-height 2s ease;
+    -webkit-transition: max-height .5s ease;
+    transition: max-height .5s ease;
 }
 
 .blue-turaco__fun-facts-image {
