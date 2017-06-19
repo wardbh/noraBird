@@ -22,7 +22,7 @@
 
 .blue-turaco__credit {
     position: absolute;
-    bottom: 0;
+    top: 0;
     right: 20px;
     font-size: 12px;
     background: rgba(0,0,0,.75);
@@ -30,7 +30,7 @@
 }
 
 .blue-turaco__tiles {
-    width: 16%;
+    width: 17%;
     padding: 0 10px 10px;
     color: black;
     padding: 0 10px 10px;
@@ -77,7 +77,7 @@
 .blue-turaco__traits {
     position: fixed;
     z-index: 5;
-    left: 17%;
+    left: 18%;
     bottom: 0;
 }
 
@@ -102,7 +102,7 @@
 .blue-turaco__nests {
     position: fixed;
     z-index: 4;
-    left: 32%;
+    left: 36%;
     bottom: 0;
 }
 
@@ -126,7 +126,7 @@
 .blue-turaco__status {
     position: fixed;
     z-index: 3;
-    left: 48%;
+    left: 54%;
     bottom: 0;
 }
 
@@ -150,7 +150,7 @@
 .blue-turaco__diet {
     position: fixed;
     z-index: 2;
-    left: 64%;
+    left: 72%;
     bottom: 0;
 }
 
@@ -174,7 +174,7 @@
 .blue-turaco__fun-facts {
     position: fixed;
     z-index: 1;
-    left: 72%;
+    right: 18%;
     bottom: 0;
 }
 
